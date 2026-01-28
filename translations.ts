@@ -1,0 +1,305 @@
+
+export const translations = {
+  en: {
+    nav: {
+      dashboard: 'Dashboard',
+      all_receipts: 'Document History',
+      outgoing: 'Invoices',
+      incoming: 'Bills',
+      paid: 'Paid',
+      open: 'Open',
+      overdue: 'Overdue',
+      drafts: 'Drafts',
+      designs: 'Templates',
+      review: 'Review Queue',
+      canceled: 'Canceled',
+      archived: 'Archived',
+      settings: 'Settings',
+      logout: 'Log Out',
+      reports: 'Reports'
+    },
+    dashboard: {
+      title: 'Dashboard',
+      revenue: 'Total Revenue',
+      outstanding: 'Outstanding',
+      overdue: 'Overdue',
+      pending_approval: 'pending approval',
+      action_required: 'Action required',
+      live_records: 'Live Database Records',
+      refresh: 'Refresh Feed'
+    },
+    documents: {
+      history: 'Document History',
+      records: 'Financial Records',
+      subtitle: 'Categorized view of your logistics operations.',
+      search_placeholder: 'Search records...',
+      no_records: 'No Records Found',
+      no_records_subtitle: 'There are no entries in this category.',
+      sync_imap: 'IONOS Sync',
+      syncing: 'Connecting to IONOS IMAP...',
+      sync_success: 'documents successfully imported from IONOS!',
+      tabs: {
+        all: 'All',
+        incoming: 'Incoming (Bills)',
+        outgoing: 'Outgoing (Invoices)',
+        paid: 'Paid',
+        review: 'To be checked',
+        overdue: 'Overdue',
+        open: 'Open',
+        draft: 'Draft',
+        canceled: 'Canceled',
+        archived: 'Archived'
+      },
+      status_labels: {
+        Pending: 'To be checked',
+        Open: 'Open / Unpaid',
+        Paid: 'Paid',
+        Overdue: 'Overdue',
+        Draft: 'Draft',
+        Canceled: 'Canceled',
+        Archived: 'Archived'
+      }
+    },
+    table: {
+      date: 'Date',
+      type: 'Type',
+      reference: 'Reference #',
+      contact: 'Contact',
+      amount: 'Amount',
+      status: 'Status',
+      actions: 'Actions',
+      due: 'Due',
+      approve: 'Approve & Move',
+      target_status: 'Target Status'
+    },
+    editor: {
+      title: 'Invoice Editor',
+      download: 'Download Invoice',
+      submit: 'Submit',
+      dispatch: 'Dispatch Controls',
+      recipient: 'Recipient Email',
+      attach: 'Attach PDF',
+      doc_details: 'Document Details',
+      consignee: 'Consignee',
+      items: 'Line Items',
+      description: 'Description',
+      qty: 'Qty',
+      price: 'Price',
+      invoice_no: 'Invoice No.',
+      date: 'Date',
+      ref: 'Reference',
+      subtotal: 'Net Subtotal',
+      tax: 'VAT',
+      total: 'Gross Total',
+      payable_until: 'Payable until',
+      greeting: 'Dear Sir or Madam,',
+      thank_you: 'Thank you for your order! We hereby invoice you for the following services:',
+      regards: 'With best regards,'
+    },
+    common: {
+      save: 'Save Changes',
+      cancel: 'Cancel',
+      search: 'Global Search...',
+      export: 'Export',
+      upload: 'Upload Invoice'
+    },
+    auth: {
+      login: {
+        title: 'Sign In',
+        subtitle: 'Sign in to manage your logistics dashboard',
+        email_label: 'Email Address',
+        password_label: 'Password',
+        forgot_password: 'Forgot password?',
+        submit: 'Log In',
+        no_account: "Don't have an account?",
+        signup_link: 'Sign up for free',
+        error_required: 'Field is required',
+        error_invalid_email: 'Please enter a valid email'
+      },
+      signup: {
+        title: 'Sign Up',
+        subtitle: 'Start your digital freight management journey today',
+        name_label: 'Full Name',
+        email_label: 'Email Address',
+        password_label: 'Secure Password',
+        submit: 'Create Account',
+        has_account: 'Already have an account?',
+        login_link: 'Log in directly',
+        db_integrated: 'PostgreSQL Integrated Database'
+      },
+      forgot: {
+        title: 'Forgot Password?',
+        subtitle: "Enter your email address and we'll send you a link to reset your password.",
+        email_label: 'Email Address',
+        submit: 'Send Reset Link',
+        back: 'Back to Login',
+        success_title: 'Check your email',
+        success_subtitle: "We've sent a password reset link to",
+        demo_btn: 'Open Reset Page (Demo)',
+        retry: "Didn't receive email? Try again"
+      },
+      reset: {
+        title: 'Create New Password',
+        subtitle: 'Your identity has been verified. Please choose a strong new password.',
+        new_password: 'New Password',
+        confirm_password: 'Confirm Password',
+        submit: 'Update Password',
+        success_title: 'Password Reset!',
+        success_subtitle: 'Your password has been successfully updated. You will be redirected shortly.',
+        login_btn: 'Go to Login Now',
+        secured: 'Secured by Askari Internal Authentication'
+      }
+    }
+  },
+  de: {
+    nav: {
+      dashboard: 'Dashboard',
+      all_receipts: 'Beleghistorie',
+      outgoing: 'Ausgangsrechnungen',
+      incoming: 'Eingangsrechnungen',
+      paid: 'Bezahlt',
+      open: 'Offen',
+      overdue: 'Überfällig',
+      drafts: 'Entwürfe',
+      designs: 'Vorlagen',
+      review: 'Prüfwarteschlange',
+      canceled: 'Storniert',
+      archived: 'Archiviert',
+      settings: 'Einstellungen',
+      logout: 'Abmelden',
+      reports: 'Berichte'
+    },
+    dashboard: {
+      title: 'Dashboard',
+      revenue: 'Gesamtumsatz',
+      outstanding: 'Ausstehend',
+      overdue: 'Überfällig',
+      pending_approval: 'wartet auf Freigabe',
+      action_required: 'Handlung erforderlich',
+      live_records: 'Live-Datenbanksätze',
+      refresh: 'Feed aktualisieren'
+    },
+    documents: {
+      history: 'Beleghistorie',
+      records: 'Finanzunterlagen',
+      subtitle: 'Kategorisierte Ansicht Ihrer Logistikabläufe.',
+      search_placeholder: 'Datensätze suchen...',
+      no_records: 'Keine Datensätze gefunden',
+      no_records_subtitle: 'In dieser Kategorie sind keine Einträge vorhanden.',
+      sync_imap: 'IONOS Sync',
+      syncing: 'Verbindung zum IONOS IMAP...',
+      sync_success: 'Belege erfolgreich von IONOS importiert!',
+      tabs: {
+        all: 'Alle',
+        incoming: 'Eingang (Rechnungen)',
+        outgoing: 'Ausgang (Rechnungen)',
+        paid: 'Bezahlt',
+        review: 'Zu prüfen',
+        overdue: 'Überfällig',
+        open: 'Offen',
+        draft: 'Entwurf',
+        canceled: 'Storniert',
+        archived: 'Archiviert'
+      },
+      status_labels: {
+        Pending: 'Zu prüfen',
+        Open: 'Offen / Unbezahlt',
+        Paid: 'Bezahlt',
+        Overdue: 'Überfällig',
+        Draft: 'Entwurf',
+        Canceled: 'Storniert',
+        Archived: 'Archiviert'
+      }
+    },
+    table: {
+      date: 'Datum',
+      type: 'Typ',
+      reference: 'Referenz #',
+      contact: 'Kontakt',
+      amount: 'Betrag',
+      status: 'Status',
+      actions: 'Aktionen',
+      due: 'Fällig',
+      approve: 'Freigeben & Verschieben',
+      target_status: 'Ziel-Status'
+    },
+    editor: {
+      title: 'Rechnungseditor',
+      download: 'PDF Herunterladen',
+      submit: 'Senden',
+      dispatch: 'Versandsteuerung',
+      recipient: 'Empfänger-E-Mail',
+      attach: 'PDF anhängen',
+      doc_details: 'Dokumentendetails',
+      consignee: 'Empfänger',
+      items: 'Positionen',
+      description: 'Beschreibung',
+      qty: 'Menge',
+      price: 'Preis',
+      invoice_no: 'Rechnungs-Nr.',
+      date: 'Datum',
+      ref: 'Referenz',
+      subtotal: 'Netto-Gesamtbetrag',
+      tax: 'MwSt',
+      total: 'Brutto-Gesamtbetrag',
+      payable_until: 'Zahlbar bis zum',
+      greeting: 'Sehr geehrte Damen und Herren,',
+      thank_you: 'Vielen Dank für Ihren Auftrag! Hiermit stellen wir Ihnen folgende Leistungen in Rechnung:',
+      regards: 'Mit freundlichen Grüßen,'
+    },
+    common: {
+      save: 'Speichern',
+      cancel: 'Abbrechen',
+      search: 'Globale Suche...',
+      export: 'Exportieren',
+      upload: 'Rechnung Hochladen'
+    },
+    auth: {
+      login: {
+        title: 'Anmelden',
+        subtitle: 'Melden Sie sich an, um Ihr Dashboard zu verwalten',
+        email_label: 'E-Mail-Adresse',
+        password_label: 'Passwort',
+        forgot_password: 'Passwort vergessen?',
+        submit: 'Anmelden',
+        no_account: 'Noch kein Konto?',
+        signup_link: 'Kostenlos registrieren',
+        error_required: 'Feld ist erforderlich',
+        error_invalid_email: 'Ungültige E-Mail-Adresse'
+      },
+      signup: {
+        title: 'Registrieren',
+        subtitle: 'Starten Sie heute Ihr digitales Frachtmanagement',
+        name_label: 'Vollständiger Name',
+        email_label: 'E-Mail-Adresse',
+        password_label: 'Sicheres Passwort',
+        submit: 'Konto erstellen',
+        has_account: 'Bereits ein Konto?',
+        login_link: 'Direkt anmelden',
+        db_integrated: 'Integrierte PostgreSQL-Datenbank'
+      },
+      forgot: {
+        title: 'Passwort vergessen?',
+        subtitle: 'Geben Sie Ihre E-Mail ein, um einen Link zum Zurücksetzen zu erhalten.',
+        email_label: 'E-Mail-Adresse',
+        submit: 'Link senden',
+        back: 'Zurück zum Login',
+        success_title: 'E-Mails prüfen',
+        success_subtitle: 'Wir haben einen Link gesendet an',
+        demo_btn: 'Reset-Seite öffnen (Demo)',
+        retry: 'Nichts erhalten? Erneut versuchen'
+      },
+      reset: {
+        title: 'Neues Passwort',
+        subtitle: 'Identität bestätigt. Bitte wählen Sie ein sicheres Passwort.',
+        new_password: 'Neues Passwort',
+        confirm_password: 'Passwort bestätigen',
+        submit: 'Passwort aktualisieren',
+        success_title: 'Zurückgesetzt!',
+        success_subtitle: 'Ihr Passwort wurde aktualisiert. Sie werden gleich weitergeleitet.',
+        login_btn: 'Jetzt zum Login',
+        secured: 'Gesichert durch Askari Authentifizierung'
+      }
+    }
+  }
+};

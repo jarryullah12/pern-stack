@@ -1,0 +1,3 @@
+Database name: SpeditionDB
+password: 123
+port: 5432

@@ -1,0 +1,13 @@
+cmd
+
+npm install
+
+npx vite
+
+npm start
+
+
+project login credentials
+
+email: invoice@askari-transport.de
+password: A7k9M2xP
